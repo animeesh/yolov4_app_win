@@ -1,0 +1,14 @@
+
+APP = ['main.py']
+DATA_FILES = ["logo.png","dnn_model-220107-114215/dnn_model/classes.txt","dnn_model-220107-114215/dnn_model/yolov4-tiny.cfg",
+              "dnn_model-220107-114215/dnn_model/yolov4-tiny.weights"]
+OPTIONS = {
+    'packages':[],
+    'iconfile':"logo.png",
+    'plist':{
+        'CFBundleDevelopementRegion':"English",
+        'CFBundleIdenitfier':"com.ForCodeCoder.xxx",
+        'CFBundleVersion':"1.0.0",
+        'NSHumanReadableCopyright':u"Copyright 2021,ForCodecoader,All Right Reserved"
+    }
+}
